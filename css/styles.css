@@ -73,7 +73,7 @@ input:focus:valid:focus, textarea:focus:valid:focus, select:focus:valid:focus { 
 /* 3. Layout and General Styles */
 /*----------------------------------------------------*/
 
-.wrapper { width:940px; margin:0 auto; }  
+.wrapper { width:940px; height:auto; margin:0 auto; }  
 .clear { clear:both; }
 
 h1 { font-size:28px; text-align:center;  font-weight:700;}
@@ -112,7 +112,7 @@ li.active a { color:#1b1d1e; }
 .video iframe {  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.15) inset, 0 -1px 1px rgba(255, 255, 255, 0.15) inset, 0 1px 8px rgba(0, 0, 0, 0.4);  }
 
 /* Slider */
-.slides { float:left; width:580px; height:360px; overflow:visible; position:relative;    margin:40px auto 0;    }
+.slides { float:center; width:580px; height:360px; overflow:visible; position:relative;    margin:40px auto 0;    }
   .slides img{  width:580px; height:360px;   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.15) inset, 0 -1px 1px rgba(255, 255, 255, 0.15) inset, 0 1px 8px rgba(0, 0, 0, 0.4);  }
 .slides_container {  width:580px;  height:360px;   z-index:3;}
 
